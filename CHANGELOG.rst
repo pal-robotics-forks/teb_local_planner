@@ -2,8 +2,8 @@
 Changelog for package teb_local_planner
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.8.4 (2020-05-13)
+------------------
 * Merge branch 'tf-fix' into 'ferrum-devel'
   Fix global pose extrapolation issue
   See merge request ros-overlays/teb_local_planner!2
