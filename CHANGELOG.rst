@@ -2,6 +2,18 @@
 Changelog for package teb_local_planner
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'tf-fix' into 'ferrum-devel'
+  Fix global pose extrapolation issue
+  See merge request ros-overlays/teb_local_planner!2
+* Fix global pose extrapolation issue
+  Sometimes there's an extrapolation error because we get the latest transform (due to ros::Time()) but the global_pose stamp is in the future.
+  This will make it wait for a valid transform, but it adds a small delay
+  waiting
+* Contributors: Victor Lopez, procopiostein
+
+
 0.8.4 (2019-12-02)
 ------------------
 * Fixed TEB autoResize if last TimeDiff is small
